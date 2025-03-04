@@ -1186,6 +1186,17 @@
   font-size: 1.4rem;
   text-align: left;
 }
+#media h1 {
+  color: #dfb85f;
+  padding: 2vw;
+}
+#media {
+  background-color: #000000;
+}
+.media_img {
+  width: 50%;
+  border-radius: 10px;
+}
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
@@ -1240,6 +1251,12 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media (max-width: 576px) {
+  .media_img {
+    width: 80%;
+  }
 }
 @media (min-width: 576px) {
   .container,
